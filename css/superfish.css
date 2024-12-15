@@ -1,0 +1,99 @@
+.sf-menu {
+	margin-bottom: 26px;
+	float: right;
+	padding-top: 42px;
+}
+.sf-menu>li {
+	position: relative;
+	float: left;
+}
+.sf-menu>li+li {
+	margin-left: 22px;
+}
+.sf-menu>li>a {
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 700;
+	position: relative;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	display: inline-block;
+	line-height: 31px;
+}
+.sf-menu>li.current>a, .sf-menu>li.sfHover>a, .sf-menu>li>a:hover {
+	color: #727272;
+}
+.sf-menu ul {
+	z-index: 500;
+	position: absolute;
+	top: 57px;
+	background: #222220; 
+	width: 165px;
+	left: -60px;
+	text-align: center;
+	padding: 13px 5px 15px;
+}
+.sf-menu ul a {
+	font-weight: 700;
+	line-height: 48px;
+}
+.sf-menu ul a:hover{
+	color: #48e0a4;
+}
+.sf-menu ul ul{
+	left: 176px;
+	top: 37px;
+	background: #fff;
+}
+.sf-menu ul a {
+	color: #fff;
+	font-weight: normal;
+	font-size: 12px;
+	font-family: 'arial';
+	line-height: 35px;
+}
+.sf-menu ul ul a  {
+	color: #424242;
+}
+.sf-menu ul a:hover{
+	color: #feb800;
+}
+.sf-menu>li:before{
+	position: absolute;
+	content: '/';
+	color: #fff;
+	font-size: 14px;
+	line-height: 31px;
+	left: -13px;
+}
+.sf-menu>li:first-child:before{
+	display: none;
+}
+
+
+
+/*==================================RESPONSIVE LAYOUTS===============================================*/
+@media only screen and (max-width: 995px) {
+	.sf-menu {
+		float: none;
+		padding-top: 22px;
+		display: inline-block;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+
+	.sf-menu {display:none !important; float: none;}
+
+	#mm0 {
+		font: 12px/15px Arial, Helvetica, sans-serif;
+		color: #202020;
+		width: 100%;
+		margin: 20px auto;
+		float: none;
+    	outline: none;
+		border: 1px solid #474646;
+	}
+	
+}
