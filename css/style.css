@@ -50,7 +50,7 @@ h4 {
 	margin-bottom: 15px;
 	font-weight: bold;
 	line-height: 27px;
-	border-bottom: 1px solid #222220;
+	/* border-bottom: 1px solid #222220; */
 }
 
 h5 {
@@ -62,7 +62,6 @@ h5 {
 
 h6 {
 	font-size: 20px;
-	text-transform: uppercase;
 	color: #222220;
 	font-weight: 900;
 	border-bottom: 1px solid #222220;
@@ -186,7 +185,8 @@ time {
 /*------------Page1------------*/
 .block1 {
 	text-align: center;
-	padding-bottom: 55px;
+	padding-bottom: 95px;
+	padding-left: 220px
 }
 .div3 {
 	margin-bottom: 23px;
@@ -426,7 +426,10 @@ a:hover {
 
 /*-------------Images-----------*/
 .img1 {
-	margin-bottom: 38px;
+	width: 500px; /* Set the width */
+	height: 250px; /* Set the height */
+	/* margin: 0 auto;
+    /* display: block;  */
 }
 .img2 {
 	float: left;
@@ -545,6 +548,7 @@ a:hover {
 }
 
 
+
 /*-------------Indent-----------*/
 .pad1 {
 	padding-top: 43px;
@@ -596,7 +600,7 @@ footer {
 }
 footer h6 {
 	font-size: 18px;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	line-height: 24px;
 	color: #feb800;
 	font-weight: 400;
