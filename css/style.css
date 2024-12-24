@@ -183,10 +183,10 @@ time {
 
 
 /*------------Page1------------*/
-.block1 {
-	text-align: center;
-	padding-bottom: 95px;
-	padding-left: 220px
+
+.fun_content
+{
+	margin: 5px;
 }
 .div3 {
 	margin-bottom: 23px;

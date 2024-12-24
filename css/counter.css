@@ -5,7 +5,7 @@
  }
 .counter-inner {
      background: #f6f6f6;
-     padding: 100px 30px 100px 70px;
+     padding: 120px 90px 100px 90px;
  }
 
 
@@ -32,8 +32,12 @@
 .fun_text{
      text-align: center;
      padding: 20px 5px;
+     padding-right: 10px;
      border-radius: 10px;
      background: #fff;
+     font-size: 14px;
+     white-space: nowrap;
+     overflow: hidden;
  }
 
 .fun_text:nth-child(3n){
@@ -53,7 +57,8 @@
      color: #444;
      font-size: 14px;
      font-weight: 600;
-
+     white-space: nowrap;
+     overflow: hidden;
  }
 
 .parallax-bg{
@@ -79,6 +84,6 @@
 .col-sm-3, .col-md-3, .col-xs-6{
     position: relative;
     min-height: 10px;
-    padding-left: 40px;
+    padding-left: 100px;
     padding-right: 15px;
 }
