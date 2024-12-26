@@ -113,12 +113,12 @@
                     <div class="success-message">Contact form submitted</div>
                 </div>
                 <label class="name">
-                    <input type="text" name="name" placeholder="Enter Your Name" data-constraints="@Required @JustLetters" />
+                    <input type="text" name="name" placeholder="Enter Your Name" data-constraints="@Required @JustLetters" required>
                     <span class="empty-message">*This field is required.</span>
                     <span class="error-message">*This is not a valid name.</span>
                 </label>
                 <label class="email">
-                    <input type="email" name="email" placeholder="Enter your Email" data-constraints="@Required @Email" />
+                    <input type="email" name="email" placeholder="Enter your Email" data-constraints="@Required @Email" required>
                     <span class="empty-message">*This field is required.</span>
                     <span class="error-message">*This is not a valid email.</span>
                 </label>
@@ -129,7 +129,7 @@
                 </label>
                 <div>
                     <div class="clear"></div>
-                    <div class="btns">
+                    <div class="btns">  
                         <div data-netlify-recaptcha="true"></div>
                         <button type="submit" class="a1">Submit</button>
                     </div>
