@@ -113,17 +113,17 @@
                     <div class="success-message">Contact form submitted</div>
                 </div>
                 <label class="name">
-                    <input type="text" name="name" data-constraints="@Required @JustLetters" />
+                    <input type="text" name="name" placeholder="Enter Your Name" data-constraints="@Required @JustLetters" />
                     <span class="empty-message">*This field is required.</span>
                     <span class="error-message">*This is not a valid name.</span>
                 </label>
                 <label class="email">
-                    <input type="email" name="email" data-constraints="@Required @Email" />
+                    <input type="email" name="email" placeholder="Enter your Email" data-constraints="@Required @Email" />
                     <span class="empty-message">*This field is required.</span>
                     <span class="error-message">*This is not a valid email.</span>
                 </label>
                 <label class="message">
-                    <textarea name="message" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
+                    <textarea name="message" placeholder="Enter your Message here" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
                     <span class="empty-message">*This field is required.</span>
                     <span class="error-message">*The message is too short.</span>
                 </label>
@@ -132,7 +132,6 @@
                     <div class="btns">
                         <div data-netlify-recaptcha="true"></div>
                         <button type="submit" class="a1">Submit</button>
-                        <!-- <a class="a1" href="#" data-type="submit"> Send message</a> -->
                     </div>
                 </div>
             </form>
